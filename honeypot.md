@@ -27,7 +27,7 @@ Ce qui existe:
 
 ## Ce qui vous est demandé
 
-Mettre en place un système pour l'observalibilité de services ssh et http.
+Mettre en place un système pour l'observalibilité de services ssh et http.  
 Exemple : [honeypot ssh](https://systemoverlord.com/2020/09/04/lessons-learned-from-ssh-credential-honeypots.html)
 
 Il vous est demandé d'avoir une réflexion sur ce qui vous faites et donc d'expliciter le niveau de sécurité de vos services : 
@@ -46,6 +46,6 @@ Une partie de votre infrastructure (le backend de votre honeypot, pour analyser 
 - configuration avec [starlark](https://ascode.run/)
 - gestion de vos secrets avec [vault](https://www.vaultproject.io/) et [SOPS](https://github.com/mozilla/sops)
 - gestion des logs avec [fluentbit](https://fluentbit.io/) et [prometheus](https://prometheus.io/)
-- visualisation avec [grafana](https://grafana.com/)
+- visualisation avec [grafana](https://grafana.com/) ou [wazuh](https://wazuh.com/)
 
 Ca sera donc aussi l'occasion d'apprendre à utiliser les technologies devsecops.
