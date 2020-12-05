@@ -4,6 +4,8 @@ Supports de cours
 - étudiants option cybersécurité à l'IMT Atlantique
 - étudiants epitech
 
+![](memorycorruption.png)
+
 ## license
 Ces supports sont disponibles en licence CC-BY-ND
 
