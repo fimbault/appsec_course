@@ -1,4 +1,4 @@
-# Project honeypot
+# Projet honeypot (assignment)
 
 Ce projet vous permettra d'appliquer les notions présentées en cours.
 
