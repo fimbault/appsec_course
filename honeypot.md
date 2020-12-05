@@ -52,7 +52,7 @@ Une partie de votre infrastructure (le backend de votre honeypot, pour analyser 
 - configuration avec [starlark](https://ascode.run/)
 - gestion de vos secrets avec [vault](https://www.vaultproject.io/) et [SOPS](https://github.com/mozilla/sops)
 - gestion des logs avec [fluentbit](https://fluentbit.io/) et [prometheus](https://prometheus.io/)
-- visualisation avec [grafana](https://grafana.com/) ou [wazuh](https://wazuh.com/)
+- visualisation avec [grafana](https://grafana.com/) - plus simple avec la stack décrite, mais [wazuh](https://wazuh.com/) donne des idées complémentaires
 
 Ca sera donc aussi l'occasion d'apprendre à utiliser les technologies devsecops.
 Il vous faudra justifier les choix techniques. 
