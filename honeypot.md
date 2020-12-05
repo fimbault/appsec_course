@@ -58,3 +58,8 @@ Une partie de votre infrastructure (le backend de votre honeypot, pour analyser 
 
 Ca sera donc aussi l'occasion d'apprendre à utiliser les technologies devsecops.
 Il vous faudra justifier les choix techniques. 
+
+
+## Aller plus loin
+
+En ouverture du projet, on pourra se poser la question de ce qu'est une bonne technologie d'observabilité. Que doit-on mettre dans des logs pour pouvoir prendre les bonnes actions ?
