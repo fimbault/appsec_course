@@ -34,7 +34,7 @@ Il vous est demandé d'avoir une réflexion sur ce qui vous faites et donc d'exp
 - quelles vulnérabilités exposez-vous volontairement? Par exemple, grâce aux outils de configuration as code, vous pouvez exposer des containers avec des settings de sécurité différents, et voir ce qui se passe
 - et pouvoir killer vos services
 
-Une partie de votre infrastructure (le backend de votre honeypot, pour analyser les logs) doit être sécurisée. Précisez comment. 
+Une partie de votre infrastructure (le backend de votre honeypot, pour analyser les logs) doit être sécurisée. Précisez comment et documentez votre architecture (par exemple avec draw.io). 
 
 ## Technologies conseillées
 
