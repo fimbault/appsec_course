@@ -22,7 +22,7 @@ Le honeypot peut concerner :
 - des systèmes internes, pour détecter au plus tôt des intrusions. Le [birding guide](http://canary-content.s3-website-us-east-1.amazonaws.com/documents/birding-guide.pdf) donne des exemples intéressants.
 
 Ce qui existe: 
-- [awesome honeypot](https://github.com/paralax/awesome-honeypots) vous donnera une liste complète de honeypots existants (mais l'objectif n'est pas de réutiliser ce qui existe). 
+- [awesome honeypot](https://github.com/paralax/awesome-honeypots) vous donnera une liste complète de honeypots existants (mais votre objectif est de concevoir votre propre honeypot). 
 - des scanners (e.g. [shodan](https://www.shodan.io/)) permettent aussi de détecter des actifs (serveurs, IoT) ouverts sur internet
 
 ## Ce qui vous est demandé
