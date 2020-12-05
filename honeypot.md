@@ -40,6 +40,8 @@ Dans le cadre du honeypot, vous pourrez être amenés à déployer services vuln
 - ou bien faire votre propres honeypots (ex: serveur ssh, portail de connexion OAuth2, etc.)
 - etc. mais veillez à logger ce qui se passe (et à protéger les secrets pour la communication avec le backend)
 
+En plus des logs applicatifs, vous pourriez éventuellement analyser les flux réseau (optionnel).
+
 Une partie de votre infrastructure (le backend de votre honeypot, pour analyser les logs) doit être sécurisée. Précisez comment et documentez votre architecture (par exemple avec draw.io). 
 
 ## Technologies conseillées
