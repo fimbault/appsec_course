@@ -15,4 +15,4 @@ Ces supports sont disponibles en licence CC-BY-ND
 - partie 2 : [sécurité applicative / web](Appsec_2.pdf)
 - partie 3 : [sécurité bas niveau / rust](Appsec_3.pdf)
 
-Un projet vient finaliser ce cours (honeypot). 
+Un [projet honeypot](honeypot.md) vient finaliser ce cours. 
