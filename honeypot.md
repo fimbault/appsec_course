@@ -37,7 +37,7 @@ Il vous est demandé d'avoir une réflexion sur ce qui vous faites et donc d'exp
 Dans le cadre du honeypot, vous pourrez être amenés à déployer services vulnérables, par exemple:
 - [Goof](https://github.com/snyk/goof)
 - de vieilles versions de wordpress
-- ou bien faire votre propres honeypots (ex: portail de connexion OAuth2)
+- ou bien faire votre propres honeypots (ex: serveur ssh, portail de connexion OAuth2, etc.)
 - etc. mais veillez à logger ce qui se passe (et à protéger les secrets pour la communication avec le backend)
 
 Une partie de votre infrastructure (le backend de votre honeypot, pour analyser les logs) doit être sécurisée. Précisez comment et documentez votre architecture (par exemple avec draw.io). 
