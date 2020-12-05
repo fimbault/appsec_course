@@ -28,11 +28,17 @@ Ce qui existe:
 ## Ce qui vous est demandé
 
 Mettre en place un système pour l'observalibilité de services ssh et http.  
-Exemple : [honeypot ssh](https://systemoverlord.com/2020/09/04/lessons-learned-from-ssh-credential-honeypots.html)
+Exemple : [honeypot ssh](https://systemoverlord.com/2020/09/04/lessons-learned-from-ssh-credential-honeypots.html) - vous pourriez par exemple tester l'impact du changement de port par défaut, sur les tentatives de connexion. 
 
 Il vous est demandé d'avoir une réflexion sur ce qui vous faites et donc d'expliciter le niveau de sécurité de vos services : 
 - quelles vulnérabilités exposez-vous volontairement? Par exemple, grâce aux outils de configuration as code, vous pouvez exposer des containers avec des settings de sécurité différents, et voir ce qui se passe
 - et pouvoir killer vos services
+
+Dans le cadre du honeypot, vous pourrez être amenés à déployer services vulnérables, par exemple:
+- [Goof](https://github.com/snyk/goof)
+- de vieilles versions de wordpress
+- ou bien faire votre propres honeypots (ex: portail de connexion OAuth2)
+- etc. mais veillez à logger ce qui se passe (et à protéger les secrets pour la communication avec le backend)
 
 Une partie de votre infrastructure (le backend de votre honeypot, pour analyser les logs) doit être sécurisée. Précisez comment et documentez votre architecture (par exemple avec draw.io). 
 
@@ -42,10 +48,11 @@ Une partie de votre infrastructure (le backend de votre honeypot, pour analyser 
 - [golang](https://golang.org/) pour programmer vos honeypots et vos remontées d'alertes
 - github (et github actions)
 - containers (et éventuellement technologies de scan associées)
-- déploiement CI/CD avec [terraform](https://www.terraform.io/)
+- déploiement CI/CD avec [terraform](https://www.terraform.io/). On vous suggère de regarder les [ressources d'apprentissage](https://learn.hashicorp.com/terraform)
 - configuration avec [starlark](https://ascode.run/)
 - gestion de vos secrets avec [vault](https://www.vaultproject.io/) et [SOPS](https://github.com/mozilla/sops)
 - gestion des logs avec [fluentbit](https://fluentbit.io/) et [prometheus](https://prometheus.io/)
 - visualisation avec [grafana](https://grafana.com/) ou [wazuh](https://wazuh.com/)
 
 Ca sera donc aussi l'occasion d'apprendre à utiliser les technologies devsecops.
+Il vous faudra justifier les choix techniques. 
