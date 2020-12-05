@@ -16,3 +16,7 @@ Ces supports sont disponibles en licence CC-BY-ND
 - partie 3 : [sécurité bas niveau / rust](Appsec_3.pdf)
 
 Un [projet honeypot](honeypot.md) vient finaliser ce cours. 
+
+## questionnaire de satisfaction
+
+merci de remplir le [questionnaire](https://forms.gle/2QJgz1JrnRbRJSce9)
