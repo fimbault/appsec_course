@@ -27,7 +27,7 @@ Ce qui existe:
 
 ## Ce qui vous est demandé
 
-Mettre en place un système pour l'observalibilité de services ssh et http.  
+Mettre en place un système pour l'observabilité de services ssh et http.  
 Exemple : [honeypot ssh](https://systemoverlord.com/2020/09/04/lessons-learned-from-ssh-credential-honeypots.html) - vous pourriez par exemple tester l'impact du changement de port par défaut, sur les tentatives de connexion. 
 
 Il vous est demandé d'avoir une réflexion sur ce qui vous faites et donc d'expliciter le niveau de sécurité de vos services : 
