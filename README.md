@@ -1,8 +1,6 @@
 # appsec_course
 
 Supports de cours
-- étudiants option cybersécurité à l'IMT Atlantique
-- étudiants epitech
 
 ![](memorycorruption.png)
 
